@@ -1,0 +1,23 @@
+package com.curd.controller;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+	
+	@RequestMapping("/hello")
+	public String sayHi(){
+		return "hello Ankit";
+	}
+	@RequestMapping("/persons")
+	 public List<Person> geAllPerson(){
+		 return (List<Person>) Arrays.asList(
+				 new Person("01","abhi"),
+				 new Person("02","anil")
+				 );
+	 }
+} 

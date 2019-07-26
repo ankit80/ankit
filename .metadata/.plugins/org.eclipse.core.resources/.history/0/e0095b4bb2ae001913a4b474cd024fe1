@@ -1,0 +1,11 @@
+package com.curd.services;
+
+import java.util.List;
+
+import com.curd.controller.Person;
+
+public interface PersonInf {
+	public List<Person> getAllPerson();
+	
+
+}

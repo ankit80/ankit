@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Insert title here</title>
+</head>
+<body>
+Holaa
+	<!-- First Name: <span th:text="${person.firstName}"></span><br/>
+	Last Name: <span th:text="${person.lasttName}"></span><br/>
+	Age: <span th:text="${person.age}"></span><br/> -->
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+package com.curd.services;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.curd.controller.Person;
+
+@Service
+public class PersonService {
+	
+	private List<Person> persons = Arrays.asList(
+			 new Person("01","abhi"),
+			 new Person("02","anil")
+			 );
+	public List<Person> getAllPerson(){
+		return persons;
+	}
+	
+
+}
